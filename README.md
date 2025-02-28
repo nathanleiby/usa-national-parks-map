@@ -1,5 +1,18 @@
 # 🏞️ US National Parks Tracker
 
+```
+██╗    ██╗ █████╗ ██████╗ ███╗   ██╗██╗███╗   ██╗ ██████╗
+██║    ██║██╔══██╗██╔══██╗████╗  ██║██║████╗  ██║██╔════╝
+██║ █╗ ██║███████║██████╔╝██╔██╗ ██║██║██╔██╗ ██║██║  ███╗
+██║███╗██║██╔══██║██╔══██╗██║╚██╗██║██║██║╚██╗██║██║   ██║
+╚███╔███╔╝██║  ██║██║  ██║██║ ╚████║██║██║ ╚████║╚██████╔╝
+ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝
+```
+
+### 🌟 This is certified vibe code 🌟
+
+### Proceed with good vibes only 🏄‍♂️
+
 Track your journey through America's most breathtaking landscapes! This interactive map helps you visualize and track visits to all 63 US National Parks.
 
 <div align="center">
@@ -57,6 +70,6 @@ This project is open source and available under the MIT License.
 
 <div align="center">
   <a href="https://cursor.sh/">
-    <img src="https://raw.githubusercontent.com/getcursor/cursor/main/assets/cursor-full-dark.png" alt="Made with Cursor" width="200"/>
+    <img src="https://raw.githubusercontent.com/getcursor/cursor/main/media/cursor-full-dark.png" alt="Made with Cursor" width="200"/>
   </a>
 </div>
