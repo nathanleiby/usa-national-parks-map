@@ -19,6 +19,18 @@ Track your journey through America's most breathtaking landscapes! This interact
   <img src="./usa.svg" alt="US National Parks Tracker" width="600"/>
 </div>
 
+Built with [Cursor](https://cursor.com), the AI-first code editor.
+
+<div align="center">
+  <a href="https://cursor.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://www.cursor.com/assets/images/logo.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://www.cursor.com/assets/images/logo.svg">
+      <img alt="Cursor" src="https://www.cursor.com/assets/images/logo.svg" height="32">
+    </a>
+  </picture>
+</div>
+
 ## ✨ Features
 
 - 🗺️ **Interactive Map**: Beautiful visualization of all 63 US National Parks
@@ -69,7 +81,7 @@ This project is open source and available under the MIT License.
 ---
 
 <div align="center">
-  <a href="https://cursor.sh/">
-    <img src="https://raw.githubusercontent.com/getcursor/cursor/main/media/cursor-full-dark.png" alt="Made with Cursor" width="200"/>
+  <a href="https://cursor.com/">
+    <img src="https://www.cursor.com/assets/images/logo.svg" alt="Made with Cursor" width="200"/>
   </a>
 </div>
