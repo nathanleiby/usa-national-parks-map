@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+#sidebar {
+  width: 300px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #2c5a2e;
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#stats {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+#search {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.filter-btn.active {
+  background-color: white;
+  color: #2c5a2e;
+}
+
+#map {
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.park-popup {
+  text-align: center;
+  max-width: 300px;
+}
+
+.park-popup img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.park-popup .park-description {
+  text-align: left;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+.visit-toggle {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.visit-toggle:hover {
+  background-color: #45a049;
+}
+
+.visit-toggle.visited {
+  background-color: #45a049;
+}
+
+#parks-list {
+  padding: 1rem;
+}
+
+.state-section {
+  margin-bottom: 1.5rem;
+}
+
+.state-section h2 {
+  font-size: 1.2rem;
+  color: #2c5a2e;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #2c5a2e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.state-section h2 .state-stats {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.park-item {
+  padding: 8px;
+  margin: 4px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.park-item:hover {
+  background-color: #e9ecef;
+}
+
+.park-item.visited {
+  background-color: #e8f5e9;
+}
+
+.park-item .visit-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: #dc3545;
+}
+
+.park-item.visited .visit-indicator {
+  background-color: #28a745;
+}
+
+.park-item.hidden {
+  display: none;
+}
+
+.state-section.hidden {
+  display: none;
+}
+
+.park-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 8px 0;
+}
